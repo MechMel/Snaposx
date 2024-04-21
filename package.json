@@ -1,0 +1,23 @@
+{
+  "name": "snaposx",
+  "version": "1.0.0",
+  "description": "",
+  "main": "snaposx.js",
+  "bin": {
+    "snaposx": "snaposx.js"
+  },
+  "scripts": {
+    "add": "npm i -g ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.12.7",
+    "sucrase": "^3.35.0"
+  },
+  "dependencies": {
+    "canvas": "^2.11.2",
+    "puppeteer": "^22.6.5"
+  }
+}
