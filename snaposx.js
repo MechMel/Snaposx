@@ -14,9 +14,6 @@ execSync(`mkdir -p ${saveDir}`);
 execSync(`screencapture -i -x -t png ${imagePath}`);
 
 (async () => {
-  // wait for three seconds
-  // await new Promise((resolve) => setTimeout(resolve, 3000));
-
   loadImage(imagePath)
     .then(async (image) => {
       // Launch a headless browser
